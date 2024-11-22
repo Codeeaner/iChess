@@ -44,7 +44,7 @@ A real-time multiplayer chess platform built with React, Firebase, and TypeScrip
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ichess.git
+git clone https://github.com/Codeeaner/iChess.git
 cd ichess
 ```
 
