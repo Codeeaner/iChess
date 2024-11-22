@@ -1,0 +1,114 @@
+# iChess - Online Chess Platform
+
+A real-time multiplayer chess platform built with React, Firebase, and TypeScript.
+
+## Features
+
+### Game Modes
+- Single Player vs Computer (Multiple difficulty levels)
+- Live Online Multiplayer
+- Private Games with Friends
+- Tournament System
+
+### Tournament Features
+- Swiss Tournament Format
+- Real-time Tournament Brackets
+- Live Game Viewing
+- Tournament Chat
+- Player Rankings
+- Tournament Countdown Timer
+
+### Game Features
+- Real-time Chess Games
+- Time Controls (Multiple formats)
+- Move Validation
+- Game Chat
+- Premove Support
+- Take Back Requests
+- Draw Offers
+- Player Statistics
+
+### Social Features
+- Global Chat
+- User Profiles
+- Rating System
+- Game History
+
+## Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+- Firebase Account
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ichess.git
+cd ichess
+```
+
+2. Install dependencies:
+``` bash
+npm install
+```
+
+3. Configure Firebase:
+ - Create a Firebase project
+ - Enable Authentication and Firestore
+ - Copy your Firebase config
+ - Create .env file:
+
+ VITE_FIREBASE_API_KEY=your_api_key
+ VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+ VITE_FIREBASE_PROJECT_ID=your_project_id
+ VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+ VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+ VITE_FIREBASE_APP_ID=your_app_id    
+
+## Running the Project
+Development mode:
+```bash
+npm run dev
+```
+
+Build for production:
+```bash
+npm run build
+```
+
+## Project Structure
+
+/src
+  /components      # React components
+  /firebase        # Firebase configuration
+  /hooks          # Custom React hooks
+  /lib            # Utility functions
+  /store          # State management
+  /types          # TypeScript types
+  /styles         # CSS/Tailwind styles
+
+## Key Components
+ - GameBoard: Chess board implementation
+ - GameLobby: Game mode selection
+ - TournamentLobby: Tournament management
+ - PrivateGame: Private game implementation
+ - Chat: Real-time chat system
+ - Stats: Player statistics
+
+## Firebase Collections
+ - users: User profiles
+ - games: Active and completed games
+ - tournaments: Tournament data
+ - messages: Chat messages
+
+## Contributing
+ - Fork the repository
+ - Create a feature branch
+ - Submit a pull request
+
+## License
+ - Regarding to the license file
+
+## Support
+ - Open an issue for bug reports or feature requests.
